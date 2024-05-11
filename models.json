@@ -1,0 +1,69 @@
+{
+    "template": {
+        "title": true,
+        "content": true,
+        "laroseda_split": true,
+        "preprocessing": [],
+        "optimizer": "",
+        "learning_rate": "",
+        "path": "",
+        "epochs": [
+            {
+                "train_loss": 0.0,
+                "validation_loss": 0.0,
+                "validation_accuracy": 0.0,
+                "validation_precision": 0.0,
+                "validation_recall": 0.0,
+                "validation_f1": 0.0
+            }
+        ]
+    },
+    "RoBERT-small": [
+        {
+            "title": true,
+            "content": true,
+            "laroseda_split": true,
+            "preprocessing": ["lowercase", "punctuation", "stop words", "stemming"],
+            "optimizer": "adam",
+            "learning_rate": "5e-5",
+            "path": "/models/RoBERT-small-preprocessed.pth",
+            "epochs": [
+                {
+                    "train_loss": 0.10497343184209118,
+                    "validation_loss": 0.11989135223502914,
+                    "validation_accuracy": 0.9556666666666667,
+                    "validation_precision": 0.9221741815935763,
+                    "validation_recall": 0.9953333333333333,
+                    "validation_f1": 0.9573581276050016
+                },
+                {
+                    "train_loss": 0.054541641761781647,
+                    "validation_loss": 0.09948443424965565,
+                    "validation_accuracy": 0.971,
+                    "validation_precision": 0.9566903684550744,
+                    "validation_recall": 0.9866666666666667,
+                    "validation_f1": 0.971447325237939
+                },
+                {
+                    "train_loss": 0.032870574186284404,
+                    "validation_loss": 0.08622458274724583,
+                    "validation_accuracy": 0.9756666666666667,
+                    "validation_precision": 0.9747172322022621,
+                    "validation_recall": 0.9766666666666667,
+                    "validation_f1": 0.9756909756909756
+                },
+                {
+                    "train_loss": 0.019274483231361956,
+                    "validation_loss": 0.09322271074843592,
+                    "validation_accuracy": 0.9756666666666667,
+                    "validation_precision": 0.972203838517538,
+                    "validation_recall": 0.9793333333333333,
+                    "validation_f1": 0.9757555629359016
+                }
+            ]
+        }
+    ],
+    "RoBERT-base": [],
+    "RoBERT-large": [],
+    "Romanian-BERT-base": []
+}
