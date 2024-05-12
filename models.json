@@ -26,7 +26,7 @@
             "preprocessing": [],
             "optimizer": "adam",
             "learning_rate": "5e-5",
-            "path": "/models/RoBERT-small-preprocessed.pth",
+            "path": "/models/RoBERT-small-raw-laroseda-split.pth",
             "epochs": [
                 {
                     "train_loss": 0.10497343184209118,
@@ -59,6 +59,49 @@
                     "validation_precision": 0.972203838517538,
                     "validation_recall": 0.9793333333333333,
                     "validation_f1": 0.9757555629359016
+                }
+            ]
+        },
+        {
+            "title": true,
+            "content": true,
+            "laroseda_split": false,
+            "preprocessing": [],
+            "optimizer": "adam",
+            "learning_rate": "5e-5",
+            "path": "/models/RoBERT-small-raw-random-split.pth",
+            "epochs": [
+                {
+                    "train_loss": 0.10918657884568286,
+                    "validation_loss": 0.06655350877748181,
+                    "validation_accuracy": 0.9793333333333333,
+                    "validation_precision": 0.9774236387782205,
+                    "validation_recall": 0.9813333333333333,
+                    "validation_f1": 0.9793745841650033
+                },
+                {
+                    "train_loss": 0.057398872210566575,
+                    "validation_loss": 0.06527247850069155,
+                    "validation_accuracy": 0.9793333333333333,
+                    "validation_precision": 0.9806149732620321,
+                    "validation_recall": 0.978,
+                    "validation_f1": 0.979305740987984
+                },
+                {
+                    "train_loss": 0.036749922786373644,
+                    "validation_loss": 0.06069716505209605,
+                    "validation_accuracy": 0.981,
+                    "validation_precision": 0.9743589743589743,
+                    "validation_recall": 0.988,
+                    "validation_f1": 0.9811320754716981
+                },
+                {
+                    "train_loss": 0.022639501699867347,
+                    "validation_loss": 0.062449871953576805,
+                    "validation_accuracy": 0.9833333333333333,
+                    "validation_precision": 0.9872311827956989,
+                    "validation_recall": 0.9793333333333333,
+                    "validation_f1": 0.9832663989290494
                 }
             ]
         }
