@@ -20,6 +20,41 @@
     },
     "RoBERT-small": [
         {
+            "title": false,
+            "content": true,
+            "laroseda_split": true,
+            "preprocessing": [],
+            "optimizer": "adam",
+            "learning_rate": "5e-5",
+            "path": "/models/RoBERT-small-raw-laroseda-split-content-only.pth",
+            "epochs": [
+                {
+                    "train_loss": 0.04044049522478599,
+                    "validation_loss": 0.2225412673149258,
+                    "validation_accuracy": 0.935,
+                    "validation_precision": 0.9329794293297943,
+                    "validation_recall": 0.9373333333333334,
+                    "validation_f1": 0.9351513136015964
+                },
+                {
+                    "train_loss": 0.04044049522478599,
+                    "validation_loss": 0.2225412673149258,
+                    "validation_accuracy": 0.935,
+                    "validation_precision": 0.9329794293297943,
+                    "validation_recall": 0.9373333333333334,
+                    "validation_f1": 0.9351513136015964
+                },
+                {
+                    "train_loss": 0.04044049522478599,
+                    "validation_loss": 0.2225412673149258,
+                    "validation_accuracy": 0.935,
+                    "validation_precision": 0.9329794293297943,
+                    "validation_recall": 0.9373333333333334,
+                    "validation_f1": 0.9351513136015964
+                }
+            ]
+        },
+        {
             "title": true,
             "content": true,
             "laroseda_split": true,
