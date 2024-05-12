@@ -23,7 +23,7 @@
             "title": true,
             "content": true,
             "laroseda_split": true,
-            "preprocessing": ["lowercase", "punctuation", "stop words", "stemming"],
+            "preprocessing": [],
             "optimizer": "adam",
             "learning_rate": "5e-5",
             "path": "/models/RoBERT-small-preprocessed.pth",
