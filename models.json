@@ -143,5 +143,163 @@
     ],
     "RoBERT-base": [],
     "RoBERT-large": [],
-    "Romanian-BERT-base": []
+    "Romanian-BERT-base": [],
+    "dumitrescustefan/bert-base-romanian-cased-v1": [
+        {
+            "title": true,
+            "content": true,
+            "laroseda_split": false,
+            "preprocessing": [
+                "lowercase",
+                "stopwords",
+                "no punctuation",
+                "stemming"
+            ],
+            "optimizer": "AdamW",
+            "learning_rate": "5e-5",
+            "path": "/models/model_state_dict.pth",
+            "epochs": [
+                {
+                    "train_loss": 0.039726552444898214,
+                    "validation_loss": 0.2072975529692291,
+                    "validation_accuracy": 0.9393333333333334,
+                    "validation_precision": 0.9387483355525965,
+                    "validation_recall": 0.94,
+                    "validation_f1": 0.9393737508327781
+                }
+            ]
+        },
+        {
+            "title": true,
+            "content": true,
+            "laroseda_split": false,
+            "preprocessing": [],
+            "optimizer": "AdamW",
+            "learning_rate": "5e-5",
+            "path": "/models/",
+            "epochs": [
+                {
+                    "train_loss": 0.00943212306270531,
+                    "validation_loss": 0.0826906874179064,
+                    "validation_accuracy": 0.979,
+                    "validation_precision": 0.97363216875412,
+                    "validation_recall": 0.9846666666666667,
+                    "validation_f1": 0.9791183294663574
+                }
+            ]
+        },
+        {
+            "title": true,
+            "content": true,
+            "laroseda_split": false,
+            "preprocessing": [],
+            "optimizer": "AdamW",
+            "learning_rate": "5e-5",
+            "path": "/models/",
+            "bert": [
+                "dropout 0.2",
+                "Linear"
+            ],
+            "epochs": [
+                {
+                    "train_loss": 0.05651761309305827,
+                    "validation_loss": 0.12082812437973917,
+                    "validation_accuracy": 0.9673333333333334,
+                    "validation_precision": 0.9575718015665796,
+                    "validation_recall": 0.978,
+                    "validation_f1": 0.9676781002638521
+                }
+            ]
+        },
+        {
+            "title": true,
+            "content": true,
+            "laroseda_split": false,
+            "preprocessing": [
+                "as usual"
+            ],
+            "optimizer": "AdamW",
+            "learning_rate": "5e-5",
+            "path": "/models/",
+            "bert": [
+                "dropout 0.2",
+                "Linear"
+            ],
+            "epochs": [
+                {
+                    "train_loss": 0.06651761309305827,
+                    "validation_loss": 0.14582812437973916,
+                    "validation_accuracy": 0.9473333333333334,
+                    "validation_precision": 0.9575718015665796,
+                    "validation_recall": 0.978,
+                    "validation_f1": 0.93
+                }
+            ]
+        },
+        {
+            "title": true,
+            "content": true,
+            "laroseda_split": false,
+            "preprocessing": [],
+            "optimizer": "AdamW",
+            "learning_rate": "2e-5",
+            "path": "/models/model_state_dict6.pth",
+            "bert": [
+                "dropout 0.2",
+                "Linear 512",
+                "GELU",
+                "Linear 512 - 2"
+            ],
+            "epochs": [
+                {
+                    "train_loss": 0.0837455772360166,
+                    "validation_loss": 0.061843056114584516,
+                    "validation_accuracy": 0.981,
+                    "validation_precision": 0.9794019933554817,
+                    "validation_recall": 0.9826666666666667,
+                    "validation_f1": 0.9810316139767056
+                },
+                {
+                    "train_loss": 0.035975903739531835,
+                    "validation_loss": 0.07964043275171813,
+                    "validation_accuracy": 0.9796666666666667,
+                    "validation_precision": 0.9768058316766071,
+                    "validation_recall": 0.9826666666666667,
+                    "validation_f1": 0.9797274842140247
+                },
+                {
+                    "train_loss": 0.02031828388571739,
+                    "validation_loss": 0.08972656703150521,
+                    "validation_accuracy": 0.9806666666666667,
+                    "validation_precision": 0.9749670619235836,
+                    "validation_recall": 0.9866666666666667,
+                    "validation_f1": 0.9807819748177601
+                },
+                {
+                    "train_loss": 0.00874727929631869,
+                    "validation_loss": 0.09318926112827224,
+                    "validation_accuracy": 0.9823333333333333,
+                    "validation_precision": 0.9820119920053297,
+                    "validation_recall": 0.9826666666666667,
+                    "validation_f1": 0.9823392202599133
+                },
+                {
+                    "train_loss": 0.007208128641049067,
+                    "validation_loss": 0.09318926112827224,
+                    "validation_accuracy": 0.9823333333333333,
+                    "validation_precision": 0.9820119920053297,
+                    "validation_recall": 0.9826666666666667,
+                    "validation_f1": 0.9823392202599133
+                },
+                {
+                    "train_loss": 0.006731709331274032,
+                    "validation_loss": 0.09318926112827224,
+                    "validation_accuracy": 0.9823333333333333,
+                    "validation_precision": 0.9820119920053297,
+                    "validation_recall": 0.9826666666666667,
+                    "validation_f1": 0.9823392202599133
+                }
+            ]
+        }
+    ]
 }
