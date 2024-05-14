@@ -300,6 +300,62 @@
                     "validation_f1": 0.9823392202599133
                 }
             ]
+        },
+        {
+            "title": true,
+            "content": true,
+            "laroseda_split": false,
+            "preprocessing": [],
+            "optimizer": "AdamW",
+            "learning_rate": "2e-5",
+            "path": "/models/model_state_dict6.pth",
+            "bert": [
+                "Dropout 0.2",
+                "LSTM 512",
+                "Linear - classifier"
+            ],
+            "epochs": [
+                {
+                    "train_loss": 0.15335259652137756,
+                    "validation_loss": 0.13620412164445345,
+                    "validation_accuracy": 0.957,
+                    "validation_precision": 0.9560878243512974,
+                    "validation_recall": 0.958,
+                    "validation_f1": 0.9570429570429569
+                },
+                {
+                    "train_loss": 0.07116137226422628,
+                    "validation_loss": 0.09971290406755483,
+                    "validation_accuracy": 0.9656666666666667,
+                    "validation_precision": 0.9497746297488732,
+                    "validation_recall": 0.9833333333333333,
+                    "validation_f1": 0.9662626924336718
+                },
+                {
+                    "train_loss": 0.03825669614473979,
+                    "validation_loss": 0.0942689744384649,
+                    "validation_accuracy": 0.9706666666666667,
+                    "validation_precision": 0.9608355091383812,
+                    "validation_recall": 0.9813333333333333,
+                    "validation_f1": 0.9709762532981531
+                },
+                {
+                    "train_loss": 0.019139074365297954,
+                    "validation_loss": 0.12218322927171053,
+                    "validation_accuracy": 0.971,
+                    "validation_precision": 0.9651086240947993,
+                    "validation_recall": 0.9773333333333334,
+                    "validation_f1": 0.971182510765154
+                },
+                {
+                    "train_loss": 0.012767395774523417,
+                    "validation_loss": 0.12218322927171053,
+                    "validation_accuracy": 0.971,
+                    "validation_precision": 0.9651086240947993,
+                    "validation_recall": 0.9773333333333334,
+                    "validation_f1": 0.971182510765154
+                }
+            ]
         }
     ]
 }
